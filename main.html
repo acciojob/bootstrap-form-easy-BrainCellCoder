@@ -21,32 +21,32 @@
     <form class="needs-validation" novalidate>
       <div class="form-row">
         <div class="col-md-6 mb-3">
-          <label for="first-name-input">First Name</label>
+          <label for="first-name-input form-label">First Name</label>
           <input type="text" class="form-control" id="first-name-input" required>
           <div class="invalid-feedback">First name required!</div>
         </div>
         <div class="col-md-6 mb-3">
-          <label for="last-name-input">Last Name</label>
+          <label for="last-name-input form-label">Last Name</label>
           <input type="text" class="form-control" id="last-name-input" required>
           <div class="invalid-feedback">Last name required!</div>
         </div>
       </div>
       <div class="form-row">
         <div class="col-md-6 mb-3">
-          <label for="email-input">Email Address</label>
+          <label for="email-input form-label">Email Address</label>
           <input type="email" class="form-control" id="email-input" required>
           <div class="invalid-feedback">Email required!</div>
         </div>
         <div class="col-md-6 mb-3">
-          <label for="college-input">College</label>
+          <label for="college-input form-label">College</label>
           <input type="text" class="form-control" id="college-input" required>
           <div class="invalid-feedback">Please provide a valid college.</div>
         </div>
       </div>
       <div class="form-row">
         <div class="col-md-6 mb-3">
-          <label for="grad-year-select">Graduation Year</label>
-          <select class="form-control" id="grad-year-select" required>
+          <label for="grad-year-select form-label">Graduation Year</label>
+          <select class=" form-select form-control grad-year-select" id="grad-year-select" required>
             <option value="" disabled selected>Choose...</option>
             <option value="2020">2020</option>
             <option value="2021">2021</option>
@@ -56,14 +56,14 @@
           <div class="invalid-feedback">Please select a valid Graduation Year.</div>
         </div>
         <div class="col-md-6 mb-3">
-          <label for="roll-no-input">Roll No.</label>
+          <label for="roll-no-input form-label">Roll No.</label>
           <input type="text" class="form-control" id="roll-no-input" required>
           <div class="invalid-feedback">Please provide a valid Roll no.</div>
         </div>
       </div>
       <div class="form-check mb-3">
         <input type="checkbox" class="form-check-input" id="conditions-checkbox" required>
-        <label class="form-check-label" for="conditions-checkbox">Agree to terms and conditions</label>
+        <label class="form-check-label form-label" for="conditions-checkbox">Agree to terms and conditions</label>
         <div class="invalid-feedback">You must agree before submitting.</div>
       </div>
       <button class="btn btn-primary" type="submit">Submit form</button>
